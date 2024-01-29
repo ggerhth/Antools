@@ -179,6 +179,7 @@ font-weight: 400;
 line-height: 30px;
 letter-spacing: 0.015em;
 color: #FFFFFFC7;
+max-width: 393px;
 }
 .join-title{
 font-size: 48px;
@@ -194,6 +195,7 @@ font-weight: 500;
 line-height: 30px;
 letter-spacing: 0em;
 color: #FFFFFF8C;
+max-width: 427px;
 }
 .Line-text{
 font-size: 16px;
@@ -208,6 +210,7 @@ font-weight: 400;
 line-height: 25px;
 letter-spacing: 0em;
 color: #FFFFFF8C;
+max-width: 260px;
 }
 .footer-title{
 font-size: 20px;
@@ -229,6 +232,12 @@ color: #FFFFFF8C;
 }
 .section-hero{
     padding-top: 104px;
+    margin-top: 100px;
+    margin-bottom: 211px;
+    background-image: url(../images/Illustration.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 .section-popular{
     padding-top: 200px;
@@ -423,3 +432,9 @@ width: 130px;
 .newcomer-list{
     display: flex;
 }
+.nav-list-item:nth-child(2)::before{
+    content: '';
+    width: 18px;
+    height: 18px;
+    background-image: url(./img/chevron-down.png);
+  }
