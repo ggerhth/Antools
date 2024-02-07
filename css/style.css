@@ -496,6 +496,7 @@ font-weight: 500;
 line-height: 36px;
 letter-spacing: 0em;
 color: #FFFFFFC7;
+padding-left: 30px;
 }
 .popular-list-text{
 font-size: 18px;
@@ -503,6 +504,7 @@ font-weight: 400;
 line-height: 27px;
 letter-spacing: 0em;
 color: #FFA5378C;
+padding-left: 30px;
 }
 .popular-list-text-two{
 font-size: 16px;
