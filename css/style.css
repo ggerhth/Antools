@@ -490,6 +490,9 @@ margin: 0 auto;
   padding-left: 33px;
   padding-right: 33px;
 }
+.popular-list-item:hover{
+  background-image: url(../images/tools-back\ \(2\).png);
+}
 .popular-list-title{
 font-size: 24px;
 font-weight: 500;
@@ -505,6 +508,9 @@ line-height: 27px;
 letter-spacing: 0em;
 color: #FFA5378C;
 padding-left: 30px;
+}
+.popular-list-text:hover{
+  color: #FFA537;
 }
 .popular-list-text-two{
 font-size: 16px;
@@ -640,15 +646,24 @@ background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/200
 .section-logo-heart{
   width: 30px;
   height: 30px;
-  background-color: url(../images/flat-color-icons_like.svg);
+  background-image: url(../images/Vector\ \(3\).svg);
   background-repeat: no-repeat;
   background-position: center;
   background-color: transparent;
   border: none;
 }
-.section-logo-heart{
-  background-color: url(../images/Vector\ \(1\).svg);
+.section-logo-heart:hover{
+  background-image: url(../images/Vector\ \(2\).svg);
 }
-.item-wrap{
-  display: flex;
+.section-logo-folder{
+  width: 30px;
+  height: 30px;
+  background-image: url(../images/Group.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  border: none;
+}
+.section-logo-folder:hover{
+  background-image: url(../images/Group\ \(1\).svg);
 }
