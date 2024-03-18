@@ -63,6 +63,13 @@ max-width: 487px;
   display: flex;
   align-items: center;
   padding-top: 110px;
+  gap: 24px;
+}
+.social-icon{
+  fill: #FFFFFFC7;
+}
+.social-list-item:hover .social-icon{
+  fill: #FF6E30;
 }
 .section-brand-title{
 font-size: 24px;
@@ -731,4 +738,36 @@ background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/200
 }
 .header-span:hover{
   color: #FF6E30;
+}
+.logo-icon{
+  fill: #FFFFFFE5;
+  width: 130.74px;
+  height: 33px;
+}
+.logo-icon:hover{
+  fill: #FFA537;
+}
+.popular-svg{
+  width: 30px;
+  height: 30px;
+  margin-right: 12px;
+  fill: #FFFFFF61;
+}
+.popular-svg:hover{
+  fill: #FD3B41;
+}
+.popular-svg-two{
+  width: 30px;
+  height: 30px;
+  fill: #FFFFFF61;
+}
+.popular-svg-two:hover{
+  fill: #FFFFFF8C;
+}
+.trusted-svg{
+  fill: #FFFFFF33;
+}
+.footer-svg{
+width: 38px;
+height: 38px;
 }
